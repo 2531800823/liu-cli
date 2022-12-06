@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}

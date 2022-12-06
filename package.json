@@ -1,0 +1,35 @@
+{
+  "name": "liu-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "email": "2531800823@qq.com",
+    "name": "liushipeng"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "lint": "pnpm lint:script",
+    "lint:script": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "prepare": "husky install",
+    "clear": "rimraf node_modules"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@umijs/fabric": "^3.0.0",
+    "commitlint": "^17.3.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "standard-version": "^9.5.0"
+  },
+  "engines": {
+    "node": "^12.0.0 || >= 14.0.0"
+  }
+}
