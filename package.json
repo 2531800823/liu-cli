@@ -10,7 +10,7 @@
   "scripts": {
     "release": "standard-version",
     "lint": "pnpm lint:script",
-    "lint:script": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:script": "eslint lib --ext .js,.jsx,.ts,.tsx --fix",
     "prepare": "husky install",
     "clear": "rimraf node_modules"
   },
