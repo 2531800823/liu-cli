@@ -1,3 +1,4 @@
 {
-  "lib/**/*": "pnpm lint"
+  "lib/**/*": "pnpm lint:script-lib",
+  "bin/**/*": "pnpm lint:script-bin"
 }
