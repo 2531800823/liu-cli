@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/2531800823/liu-cli/compare/v1.1.2...v1.1.3) (2022-12-07)
+
+
+### Features
+
+* 添加删除判断和强制删除 ([f848e9a](https://github.com/2531800823/liu-cli/commit/f848e9ab743b86c40fdc00ee8b9b8699bb637e29))
+* 完成创建模板的基本流程 ([0d435b1](https://github.com/2531800823/liu-cli/commit/0d435b122d3b9e564b81303fe39ea67fc968d0c9))
+
 ### [1.1.2](https://github.com/2531800823/liu-cli/compare/v1.1.1...v1.1.2) (2022-12-06)
 
 
