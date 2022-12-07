@@ -29,13 +29,14 @@ program.on('--help', function () {
 program
   .command('create <project-name>') // 增加创建指令
   .description('创建项目') // 添加描述信息
-  .option('-f, --force', 'overwrite target directory if it exists') // 强制覆盖
+  .option('-f, --force', '强制操作') // 强制覆盖
   .action(create);
 
 program
   .command('clear') // 增加创建指令
   .description('删除 node_modules ') // 添加描述信息
-  .option('-d, --dir <dir_name>', '删除指定目录下的') // 强制覆盖
+  .option('-d, --dir <dir_name>', '删除指定目录下的 node_modules')
+  .option('-f, --force', '强制操作') // 强制覆盖
   .action(clear);
 
 program
