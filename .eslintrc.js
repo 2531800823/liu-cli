@@ -18,10 +18,7 @@ module.exports = {
     'no-confusing-arrow': 0,
     'no-console': 0,
     'max-len': ['error', { code: 120, ignoreComments: true, ignoreStrings: true }],
-    'space-before-function-paren': [
-      'error',
-      { anonymous: 'never', named: 'never', asyncArrow: 'always' },
-    ],
+    'space-before-function-paren': ['error'],
     'no-underscore-dangle': 0,
     'no-plusplus': 0,
     'no-restricted-syntax': 'off',

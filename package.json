@@ -44,7 +44,10 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
     "figlet": "^1.5.2",
+    "inquirer": "^8.2.5",
+    "open": "^8.4.0",
     "ora": "^5.4.1",
     "pkg-dir": "^4.2.0",
     "rimraf": "^3.0.2"

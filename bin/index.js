@@ -5,9 +5,9 @@ const chalk = require('chalk');
 const figlet = require('figlet');
 const pkg = require('../package.json');
 
-const { clear } = require('../lib');
+const { clear,create } = require('../lib');
 
-program.on('--help', function() {
+program.on('--help', function () {
   console.log(
     '\r\n' +
       figlet.textSync('liu-cli', {
@@ -30,10 +30,7 @@ program
   .command('create <project-name>') // 增加创建指令
   .description('创建项目') // 添加描述信息
   .option('-f, --force', 'overwrite target directory if it exists') // 强制覆盖
-  .action((projectName, cmd) => {
-    // 处理用户输入create 指令附加的参数
-    console.log(projectName, cmd);
-  });
+  .action(create);
 
 program
   .command('clear') // 增加创建指令
